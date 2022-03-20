@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Auto Neutralization of Sensitive Content",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "script.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
